@@ -15,3 +15,11 @@ The Options Staking Program is a Solana-based smart contract built using the Anc
 - ✅ Emergency unstake function for system failures or protocol halts.
 - ✅ Admin functionality to adjust reward rates and penalties.
 - ✅ PDA-based pool authority for automated reward minting.
+
+## Program Architecture
+
+- **UserAccount** : Stores a user's staked options, reward balance, and lock period data.
+
+- **StakingPool** : Manages total staked options, reward pools, staking policies, and admin-controlled parameters.
+
+- **OptionContract** : Represents a staked option contract, including type, strike price, expiry, and lock status.
