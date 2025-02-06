@@ -150,6 +150,14 @@ If users unstake their options before the lock period has ended, they receive a 
   
 ---
 
+## Future Enhancements
+- Multi-chain staking support (Ethereum/Solana interoperability).
+- NFT staking integration.
+- Governance-controlled staking parameter updates.
+- Oracle integration for real-time pricing and volatility tracking.
+
+---
+
 ## License
 - ***MIT LICENSE***
 
