@@ -141,6 +141,14 @@ If users unstake their options before the lock period has ended, they receive a 
 -  The formula for the early unstake penalty is: penalty = reward_balance * penalty_rate / 100
 
 ---
+## TECH STACK 
+- Rust
+- Typescript
+- Anchor
+- Solana
+- Solana Playground IDE
+  
+---
 
 ## License
 - ***MIT LICENSE***
