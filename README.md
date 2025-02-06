@@ -33,16 +33,6 @@ Locks an option contract for staking and tracks its staking period.
 ```rust
 pub fn stake_options(ctx: Context<StakeOptions>, option_pubkey: Pubkey, lock_period: u64, option_type: u8) -> Result<()>
 
-- Ensures the option is not already locked.
-- Validates the option type (0 = Call, 1 = Put).
-- Adds the option to the user’s staking list and locks it.
-- Updates staking pool statistics and reward rate.
 
- Accounts :
-- user_account
 
-- staking_pool
 
-- option_contract
-
-- system_program
