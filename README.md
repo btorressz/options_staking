@@ -2,6 +2,7 @@
 
 # Overview
 The Options Staking Program is a Solana-based smart contract(program) built using the Anchor framework. This contract allows users to stake option contracts, earn rewards, and claim or compound those rewards. It supports dynamic reward adjustments, auto-restaking, early unstake penalties, and liquidity pool staking. 
+
 devnet:(https://explorer.solana.com/address/6skdVTguzuPFbCeGju4Mg6uvdS82AcxBqTUpRzdVMRaz?cluster=devnet)
 
 ## Features
