@@ -140,7 +140,9 @@ If users unstake their options before the lock period has ended, they receive a 
 - The penalty is applied to the rewards balance using a specified penalty rate.
 -  The formula for the early unstake penalty is: penalty = reward_balance * penalty_rate / 100
 
+---
 
-
+## License
+- ***MIT LICENSE***
 
 
