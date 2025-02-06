@@ -23,3 +23,12 @@ The Options Staking Program is a Solana-based smart contract built using the Anc
 - **StakingPool** : Manages total staked options, reward pools, staking policies, and admin-controlled parameters.
 
 - **OptionContract** : Represents a staked option contract, including type, strike price, expiry, and lock status.
+
+  ## Program Instructions
+
+### 1. **Stake Options**
+
+Locks an option contract for staking and tracks its staking period.
+
+```rust
+pub fn stake_options(ctx: Context<StakeOptions>, option_pubkey: Pubkey, lock_period: u64, option_type: u8) -> Result<()>
